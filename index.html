@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHESS TIMER</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="myAudio">
+        <h3>My Chess Timer</h3>
+        <p>Please select time in seconds!</p>
+        <audio id="audio1" src="audio/Radio-tv Censor 'beep' Sound.mp4" control></audio>
+        <input type="number" id="minutes" min = 5 max = 20 required>
+        <div class="btn-container">
+            <button onclick="startInterval()">Set</button>
+            <button onclick="stopInterval()">Reset</button>
+        </div>
+    </div>
+    <script src="script/index.js"></script>
+</body>
+</html>
